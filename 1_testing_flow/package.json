@@ -14,7 +14,7 @@
   "husky": {
     "hooks": {
       "pre-push": "yarn run test",
-      "pre-commit": "echo 'hello'"
+      "precommit": "echo 'hello'"
     }
   }
 }
