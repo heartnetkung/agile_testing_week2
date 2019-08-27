@@ -1,0 +1,19 @@
+{
+  "name": "1_testing_flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^3.0.4",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn run test"
+    }
+  }
+}
