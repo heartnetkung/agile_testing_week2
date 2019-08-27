@@ -9,12 +9,13 @@
   },
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "makedoc": "jest --reporters='<rootDir>/makedoc.js'"
   },
   "husky": {
     "hooks": {
       "pre-push": "yarn run test",
-      "pre-commit": "echo 'hello'"
+      "pre-commit": "yarn run test"
     }
   }
 }

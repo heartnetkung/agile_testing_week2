@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head></head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--comment the line below-->
+	<script src="test.js"></script>
+	<script>
+	$(document).ready(function() {
+		$.ajax({
+			url: '/api',
+			method: 'GET'
+		}).done(function(message) {
+			alert(message);
+		}).fail(function(message) {
+			console.log('fail', message.responseText);
+		});
+	});
+	</script>
+</body>
+
+</html>

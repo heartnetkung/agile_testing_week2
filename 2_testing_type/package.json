@@ -1,0 +1,17 @@
+{
+  "name": "2_testing_type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts":{
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
