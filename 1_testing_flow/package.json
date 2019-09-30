@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "watch": "jest --watch",
-    "makedoc": "jest --reporters='<rootDir>/makedoc.js'"
+    "makedoc": "jest --reporters='./makedoc.js'"
   },
   "husky": {
     "hooks": {
